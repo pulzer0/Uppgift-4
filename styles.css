@@ -1,0 +1,42 @@
+/* Backgrunden och font för allt*/
+body{
+    background-color: lemonchiffon;
+    font-family: Verdana, sans-serif;
+}
+
+/* Section av CSS och HTML spalterna */
+section{
+    display: grid;
+    padding: 1vw;
+    gap: 1vw;
+}
+
+/* Båda spalternas utseende */
+article{
+    padding: 15px;
+    text-align: start;  
+    background-color: aquamarine;      
+}
+
+/* Footern med datumet */
+footer{
+    background-color: aquamarine;
+    padding: 15px;
+}
+
+/* Spalterna vänster(CSS) och höger(HTML) */
+.left{
+    grid-column: 1;
+}
+.right{
+    grid-column: 2;
+}
+
+/* Decoration av länkar */
+a{
+    text-decoration: none;
+    color:rgb(74, 119, 104);
+}
+a:hover {
+    text-decoration: underline;
+}
